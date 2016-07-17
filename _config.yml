@@ -1,10 +1,11 @@
 # Site wide configuration
 
-title: Site Title
+title: Mike Chow
 locale: en_US
-description: Describe your website here.
+description: Mike's blog.
 logo: site-logo.png
 search: true
+baseurl: "/mikechow-blog"
 url: http://localhost:4000
 
 # Jekyll configuration
@@ -36,11 +37,11 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
+  name: Mike Chow
   avatar: bio-photo.jpg
-  email: you@email.com
+  email: yannyexpress10@gmail.com
   disqus-shortname:
-  twitter: #username
+  twitter: @yannyexpress10
   facebook: #username
   github: #username
   stackexchange: #http://stackoverflow.com/users/123456/username

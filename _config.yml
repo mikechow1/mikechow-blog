@@ -5,7 +5,7 @@ locale: en_US
 description: Mike's blog.
 logo: site-logo.png
 search: true
-baseurl: https://mikechow1.github.io/mikechow-blog/
+baseurl: https://mikechow1.github.io/mikechow-blog
 url: http://localhost:4000
 
 # Jekyll configuration

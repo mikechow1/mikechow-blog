@@ -4,9 +4,9 @@ title: About this site
 excerpt: "So Simple is a responsive Jekyll theme for your words and images."
 modified: 2016-07-29T19:44:38.564948-04:00
 image:
-  
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+  feature: so-simple-sample-image-7.jpg
+  credit: Mariannizmo
+  creditlink: http://mariannizmo.deviantart.com/art/FREE-5-Triangulation-Mosaic-backgrounds-406553032
 ---
 
 This site is where I keep track of my personal projects and blog for coding exercises.  Sometimes I blog something I find interesting, too.

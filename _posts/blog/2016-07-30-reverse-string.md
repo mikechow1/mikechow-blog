@@ -13,14 +13,16 @@ comments: true
 share: true
 ---
 
-### Free Code Camp Basic Algorithm Scripting - Reverse a String
+Free Code Camp Basic Algorithm Scripting - Reverse a String
 
-## Instruction:
+Instruction:
+
 Reverse the provided string.
 You may need to turn the string into an array before you can reverse it.
 Your result must be a string.
 
-## Steps:
+Steps:
+
 1. Create an empty string to hold the newly created string.
 2. Create a FOR Loop in which the starting point is (str.length -1) which represents the last character of the string, and loops back the string. 
 3. Return the reversed string.

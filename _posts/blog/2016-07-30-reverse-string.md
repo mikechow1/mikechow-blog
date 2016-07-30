@@ -56,9 +56,9 @@ Result:
 
 Steps:
 
-* Use the Split() method to return a new array
-* Use the Reverse() method to reverse the new array.
-* Use the join() method to join all the splitted elements back into a string.
+* Use the [`Split()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split) method to return a new array
+* Use the [`Reverse()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse) method to reverse the new array.
+* Use the [`join()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join) method to join all the splitted elements back into a string.
 * Return the reversed string.
 
 
@@ -70,8 +70,3 @@ function rev(str){
 
 ```
 
-Resources:
-[`split()` method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
-[`reverse()` method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse)
-[`join()` method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
-[`String.length`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/length)

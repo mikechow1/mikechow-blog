@@ -40,10 +40,8 @@ function rev(str){
 String "hello" length equals 5:
 
 | iteration | i   | placeholder |
-|:---------	|:---:|------------:|
 | 1st  	| 4   | "o"         |
 | 2nd   	| 3   | "ol"        |
-|----
 | 3rd       | 2   | "oll"       |
 | 4th       | 1   | "olle"      |
 | 5th       | 0   | "olleh"     |

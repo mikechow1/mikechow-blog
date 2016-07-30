@@ -4,9 +4,9 @@ title: Projects
 excerpt: "Instructions on how to install and customize the Jekyll theme So Simple."
 modified: 2016-06-01T14:07:07-04:00
 image:
-  
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+  feature: so-simple-sample-image-7.jpg
+  credit: Mariannizmo
+  creditlink: http://mariannizmo.deviantart.com/art/FREE-5-Triangulation-Mosaic-backgrounds-406553032
 ---
 
 General notes and suggestions for customizing **So Simple Theme**.

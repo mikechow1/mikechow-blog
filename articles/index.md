@@ -3,6 +3,10 @@ layout: page
 title: Articles
 excerpt: "An archive of articles sorted by date."
 search_omit: true
+image:
+  feature: so-simple-sample-image-7.jpg
+  credit: Mariannizmo
+  creditlink: http://mariannizmo.deviantart.com/art/FREE-5-Triangulation-Mosaic-backgrounds-406553032
 ---
 
 <ul class="post-list">

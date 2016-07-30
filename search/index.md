@@ -5,7 +5,10 @@ date:
 modified:
 excerpt:
 image:
-  feature:
+  image:
+  feature: so-simple-sample-image-7.jpg
+  credit: Mariannizmo
+  creditlink: http://mariannizmo.deviantart.com/art/FREE-5-Triangulation-Mosaic-backgrounds-406553032
 search_omit: true
 sitemap: false
 ---

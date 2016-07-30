@@ -15,11 +15,10 @@ share: true
 
 Free Code Camp Basic Algorithm Scripting - Reverse a String
 
-Instruction:
+<u>Instruction:</u>
 
-Reverse the provided string.
-You may need to turn the string into an array before you can reverse it.
-Your result must be a string.
+>Reverse the provided string.
+>You may need to turn the string into an array before you can reverse it. Your result must be a string.
 
 Steps:
 
@@ -37,3 +36,6 @@ function rev(str){
   return placeholder;
 }
 ```
+
+Result:
+<cite>rev("hello")</cite> should become "olleh"

@@ -20,11 +20,13 @@ Free Code Camp Basic Algorithm Scripting - Reverse a String
 >Reverse the provided string.
 >You may need to turn the string into an array before you can reverse it. Your result must be a string.
 
+## Using a For Loop
+
 Steps:
 
-1. Create an empty string to hold the newly created string.
-2. Create a FOR Loop in which the starting point is (str.length -1) which represents the last character of the string, and loops back the string. 
-3. Return the reversed string.
+* Create an empty string to hold the newly created string.
+* Create a FOR Loop in which the starting point is (str.length -1) which represents the last character of the string, and loops back the string. 
+* Return the reversed string.
 
 
 ```Javascript
@@ -49,3 +51,27 @@ String "hello" length equals 5:
 
 Result:
 <cite>rev("hello")</cite> should become "olleh"
+
+## Using Built-in Functions
+
+Steps:
+
+* Use the Split() method to return a new array
+* Use the Reverse() method to reverse the new array.
+* Use the join() method to join all the splitted elements back into a string.
+* Return the reversed string.
+
+
+```Javascript
+
+function rev(str){
+	var reverseStr = str.split('').reverse().join("");
+}
+
+```
+
+Resources:
+[`split()` method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
+[`reverse()` method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse)
+[`join()` method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
+[`String.length`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/length)

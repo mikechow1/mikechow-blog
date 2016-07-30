@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Theme Setup
+title: Projects
 excerpt: "Instructions on how to install and customize the Jekyll theme So Simple."
 modified: 2016-06-01T14:07:07-04:00
 image:

@@ -30,7 +30,7 @@ Free Code Camp Checkpoint - Record Collection
 ### Approaching the Problem
 Expect to be stuck as FCC at first try. It's totally normal. Better to draw a dragram or a table or whatever before actual coding as the requirements here are hard to swollow at first.
 
-You will need:
+### You will need:
 * if/else statments to check all 4 scenarios
 * The [`Push()`] Method
 * The [`delete`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/delete) Operator
@@ -43,6 +43,7 @@ You will need:
 		* if yes: create an empty array for tracks prop, and update the array (e.g 3).
 		* else: push the *value* in the existing array. (e.g. 4)
 
+### Outcomes for all 4 scenarios:
 * (e.g.1) updateRecords(2548, "artist", ""), artist should not be set
 * (e.g.2) updateRecords(5439, "artist", "ABBA"), artist should be "ABBA"
 * (e.g.3) updateRecords(1245, "tracks", "Addicted to Love"), tracks should have "Addicted to Love" as the last element.

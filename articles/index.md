@@ -2,7 +2,6 @@
 layout: page
 title: Articles
 excerpt: "An archive of articles sorted by date."
-search_omit: true
 image:
   feature: so-simple-sample-image-7.jpg
   credit: Mariannizmo

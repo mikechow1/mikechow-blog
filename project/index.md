@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projects
-excerpt: "Instructions on how to install and customize the Jekyll theme So Simple."
+excerpt: "Mike Chow Projects"
 modified: 2016-06-01T14:07:07-04:00
 image:
   feature: so-simple-sample-image-7.jpg

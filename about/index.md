@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About this site
-excerpt: "So Simple is a responsive Jekyll theme for your words and images."
+excerpt: "About Mike Chow's blog."
 modified: 2016-07-29T19:44:38.564948-04:00
 image:
   feature: so-simple-sample-image-7.jpg

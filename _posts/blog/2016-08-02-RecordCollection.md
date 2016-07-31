@@ -28,11 +28,13 @@ Free Code Camp Checkpoint - Record Collection
 5. If value is empty (""), delete the given prop property from the album.*
 
 ### Approaching the Problem
-Expect to be stuck as FCC at first try. It's totally normal. Better to draw a dragram or a table or whatever before actual coding as the requirements here are hard to swollow at first.
+Expect to be stuck at first try. It's totally normal. Better to draw a dragram or a table or whatever before actual coding as the requirements here are hard to swollow at first.  Once you have it in drawing, it's earier to tickle.
 
-### You will need:
+The question is really about testing your concept on object, properties, array, if/else statements and how to use the !== and ! operators.
+
+### Requirements
 * if/else statments to check all 4 scenarios
-* The [`Push()`] Method
+* The `Push()` Method
 * The [`delete`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/delete) Operator
 
 ### Steps
@@ -52,9 +54,9 @@ Expect to be stuck as FCC at first try. It's totally normal. Better to draw a dr
 
 ```html
 {% raw %}
-// Only change code below this line
+
 function updateRecords(id, prop, value) {
-  if (value !== ""){
+  if (value !== ""){ 
     if(prop !== "tracks"){
       collection[id][prop] = value;
     }else{

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Serial - The Podcast"
-excerpt: "This is just a testing page."
+excerpt: "Serial - The Podcast."
 categories: articles
 tags: [Potcast]
 author: Mike Chow
@@ -22,6 +22,4 @@ The podcast won several critical acclaims including the Peabody Award.  For some
 
 
 
-```yaml
-author: Mike Chow
-```
+

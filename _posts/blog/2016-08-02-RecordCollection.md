@@ -15,25 +15,13 @@ share: true
 
 Free Code Camp Checkpoint - Record Collection
 
-<u>Instruction:</u>
-
-1. Write a function which takes an album's id (like 2548), a property prop (like "artist" or "tracks"), and a value (like "Addicted to Love") to modify the data in this collection.*
-
-2. If prop isn't "tracks" and value isn't empty (""), update or set the value for that record album's property. Your function must always return the entire collection object.*
-
-3. If prop is "tracks" but the album doesn't have a "tracks" property, create an empty array before adding the new value to the album's corresponding property.*
-
-4. If prop is "tracks" and value isn't empty (""), push the value onto the end of the album's existing tracks array.*
-
-5. If value is empty (""), delete the given prop property from the album.*
-
 ### Approaching the Problem
-Expect to be stuck at first try. It's totally normal. Better to draw a dragram or a table or whatever before actual coding as the requirements here are hard to swollow at first.  Once you have it in drawing, it's earier to tickle.
+Expect to be stuck at first try. It's normal. Better to draw a dragram or a table or whatever before actual coding as the requirements here are hard to swollow at first.  Once you have it in drawing, it's earier to tickle.
 
-The question is really about testing your concept on object, properties, array, if/else statements and how to use the !== and ! operators.
+The question is really about testing your concepts on objects, properties, arrays, if/else statements and how to use the !== and ! operators.
 
 ### Requirements
-* if/else statments to check all 4 scenarios
+* [`if/else`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/if...else) statments to check all 4 scenarios
 * The `Push()` Method
 * The [`delete`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/delete) Operator
 
@@ -45,18 +33,48 @@ The question is really about testing your concept on object, properties, array, 
 		* if yes: create an empty array for tracks prop, and update the array (e.g 3).
 		* else: push the *value* in the existing array. (e.g. 4)
 
-### Outcomes for all 4 scenarios:
+### Test all 4 scenarios:
 * (e.g.1) updateRecords(2548, "artist", ""), artist should not be set
 * (e.g.2) updateRecords(5439, "artist", "ABBA"), artist should be "ABBA"
 * (e.g.3) updateRecords(1245, "tracks", "Addicted to Love"), tracks should have "Addicted to Love" as the last element.
 * (e.g.4) updateRecords(2468, "tracks", "Free"), tracks should have "1999" as the first element.		
 
 
-```html
+```Javascript
 {% raw %}
 
+// Setup
+var collection = {
+    "2548": {
+      "album": "Slippery When Wet",
+      "artist": "Bon Jovi",
+      "tracks": [ 
+        "Let It Rock", 
+        "You Give Love a Bad Name" 
+      ]
+    },
+    "2468": {
+      "album": "1999",
+      "artist": "Prince",
+      "tracks": [ 
+        "1999", 
+        "Little Red Corvette" 
+      ]
+    },
+    "1245": {
+      "artist": "Robert Palmer",
+      "tracks": [ ]
+    },
+    "5439": {
+      "album": "ABBA Gold"
+    }
+};
+// Keep a copy of the collection for tests
+var collectionCopy = JSON.parse(JSON.stringify(collection));
+
+// Only change code below this line
 function updateRecords(id, prop, value) {
-  if (value !== ""){ 
+  if (value !== ""){
     if(prop !== "tracks"){
       collection[id][prop] = value;
     }else{
@@ -70,6 +88,11 @@ function updateRecords(id, prop, value) {
   }
 
   return collection;
+}
+
+// Alter values below to test your code
+
+updateRecords(5439, "artist", "ABBA");
 }
 {% endraw %}
 ```

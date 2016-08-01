@@ -16,6 +16,7 @@ share: true
 Free Code Camp Basic Algorithm Scripting - Check for Palindromes
 
 <u>Instruction:</u>
+
 >Return true if the given string is a palindrome. Otherwise, return false.
 
 >A palindrome is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing.
@@ -46,13 +47,14 @@ palindrome("five|\_/|four") should return false.
 I have been avoided using [Regular Expression](https://developer.mozilla.org/en/docs/Web/JavaScript/Guide/Regular_Expressions) like the plague but I guess we have no choices in this case.  
 
 Regex we need to use in this situation:
+
 * \W  Matches any non-word character. Equivalent to [^A-Za-z0-9_].
 * _  For Matching "0_0 (: /-\ :) 0-0".
 * g  For global search.
 
 So the Regex we need is "/[\W_]/g"
 
-I use this [site](https://regex101.com/#javascript) for checking.
+I used this [site](https://regex101.com/#javascript) for checking my Regex.
 
 ### Requirements
 

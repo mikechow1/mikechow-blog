@@ -76,10 +76,10 @@ I used this [site](https://regex101.com/#javascript) for checking my Regex.
 {% raw %}
 function palindrome(str){
 	return str.replace(/[\W_]/g, '').toLowerCase()===
-		 str.replace(/[\W_]/g, '').toLowerCase().split('').reverse().join('');
+	str.replace(/[\W_]/g, '').toLowerCase().split('').reverse().join('');
 }
 
 
-palindrome("eye");
+palindrome("My age is 0, 0 si ega ym.");
 {% endraw %}
 ```

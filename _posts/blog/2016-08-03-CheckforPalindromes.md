@@ -6,9 +6,9 @@ modified: 2016-08-03T14:17:25-04:00
 categories: blog
 tags: [FreeCodeCamp]
 image:
-  feature: K-Kanehira-7.jpg
-  credit: K,KANEHIRA
-  creditlink: http://www.iamag.co/features/the-art-of-kkanehira/
+  feature: so-simple-sample-image-7.jpg
+  credit: Mariannizmo
+  creditlink: http://mariannizmo.deviantart.com/art/FREE-5-Triangulation-Mosaic-backgrounds-406553032
 comments: true
 share: true
 ---

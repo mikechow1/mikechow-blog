@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Check for Palindromes - FreeCodeCamp
+title: Check for Palindromes
 excerpt: "Free Code Camp Basic Algorithm Scripting"
 modified: 2016-08-03T14:17:25-04:00
 categories: blog
@@ -48,9 +48,9 @@ I have been avoided using [Regular Expression](https://developer.mozilla.org/en/
 
 Regex we need to use in this situation:
 
-* \W  Matches any non-word character. Equivalent to [^A-Za-z0-9_].
-* _  For Matching "0_0 (: /-\ :) 0-0".
-* g  For global search.
+* `\W`  Matches any non-word character. Equivalent to [^A-Za-z0-9_].
+* `_`  For Matching "0_0 (: /-\ :) 0-0".
+* `g`  For global search.
 
 So the Regex we need is "/[\W_]/g"
 
@@ -66,7 +66,7 @@ I used this [site](https://regex101.com/#javascript) for checking my Regex.
 
 ### Steps
 
-* Take case the capitalization issue by using the toLowerCase() method.
+* Take care the capitalization issue by using the toLowerCase() method.
 * Use the replace() method to remove space and punctuation.
 * Use the split() method to chop a string object into sub strings.
 * Reverse() method to reverse the sub string array.

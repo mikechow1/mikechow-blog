@@ -40,59 +40,58 @@ The question is really about testing your concepts on objects, properties, array
 * (e.g.4) updateRecords(2468, "tracks", "Free"), tracks should have "1999" as the first element.		
 
 
-```Javascript
+
 {% raw %}
-
-// Setup
-var collection = {
-    "2548": {
-      "album": "Slippery When Wet",
-      "artist": "Bon Jovi",
-      "tracks": [ 
-        "Let It Rock", 
-        "You Give Love a Bad Name" 
-      ]
-    },
-    "2468": {
-      "album": "1999",
-      "artist": "Prince",
-      "tracks": [ 
-        "1999", 
-        "Little Red Corvette" 
-      ]
-    },
-    "1245": {
-      "artist": "Robert Palmer",
-      "tracks": [ ]
-    },
-    "5439": {
-      "album": "ABBA Gold"
-    }
-};
-// Keep a copy of the collection for tests
-var collectionCopy = JSON.parse(JSON.stringify(collection));
-
-// Only change code below this line
-function updateRecords(id, prop, value) {
-  if (value !== ""){
-    if(prop !== "tracks"){
-      collection[id][prop] = value;
-    }else{
-      if(!collection[id][prop]){
-        collection[id][prop] = [];
+  // Setup
+  var collection = {
+      "2548": {
+        "album": "Slippery When Wet",
+        "artist": "Bon Jovi",
+        "tracks": [ 
+          "Let It Rock", 
+          "You Give Love a Bad Name" 
+        ]
+      },
+      "2468": {
+        "album": "1999",
+        "artist": "Prince",
+        "tracks": [ 
+          "1999", 
+          "Little Red Corvette" 
+        ]
+      },
+      "1245": {
+        "artist": "Robert Palmer",
+        "tracks": [ ]
+      },
+      "5439": {
+        "album": "ABBA Gold"
       }
-      collection[id][prop].push(value);
+  };
+  // Keep a copy of the collection for tests
+  var collectionCopy = JSON.parse(JSON.stringify(collection));
+
+  // Only change code below this line
+  function updateRecords(id, prop, value) {
+    if (value !== ""){
+      if(prop !== "tracks"){
+        collection[id][prop] = value;
+      }else{
+        if(!collection[id][prop]){
+          collection[id][prop] = [];
+        }
+        collection[id][prop].push(value);
+      }
+    }else{
+      delete collection[id][prop];
     }
-  }else{
-    delete collection[id][prop];
+
+    return collection;
   }
 
-  return collection;
-}
+  // Alter values below to test your code
 
-// Alter values below to test your code
-
-updateRecords(5439, "artist", "ABBA");
-}
+  updateRecords(5439, "artist", "ABBA");
+  }
 {% endraw %}
-```
+

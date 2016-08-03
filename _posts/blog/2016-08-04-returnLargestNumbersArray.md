@@ -19,7 +19,7 @@ Free Code Camp Basic Algorithm Scripting - Return Largest Numbers in Arrays
 
 This is basically about creating a set of nested FOR loops for a [`muit-dimensional array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Indexed_collections). I'm not really happy with most of the explainations out there regarding nested for loops which can be a massive confusion for beginners.  So lets loop through an example to illustrate.
 
-```html
+```Javascript
 {% raw %}   
 
 var arr = [
@@ -73,7 +73,7 @@ So base on the example above we can evaulate all the numbers with each of the fo
 * `if statement` to assign new value to the <cite>largest</cite> variable.
 * Populate the newly created empty array with the results and return it.
 
-```html
+```Javascript
 {% raw %} 
 
 function largestOfFour(arr){

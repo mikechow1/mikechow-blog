@@ -48,7 +48,7 @@ In that creation phase, it recognizes where you've created variables and where y
 
 What it means is before your code begins to be executed line by line, the JS engine has already set aside memory space for the variables you've created in that entire code you've built, and all of the functions. So those functions and variables exist in memory.  So when the code begins to execute line by line, it can access them.
 
-However, when it comes to variables, it's a bit different.  In the execution phase where it actually executes your code line by line. So the JS engine when it sets up the memory space for [a], it doesn't know what its value until it starts executing its code. So instead it puts a placeholder called [undefined].
+However, when it comes to variables, it's a bit different.  In the execution phase where it actually executes your code line by line. So the JS engine when it sets up the memory space for <cite>a</cite>, it doesn't know what its value until it starts executing its code. So instead it puts a placeholder called `undefined`.
 
 All variables in JS are initially set to undefined, and functions are set in memory in their entirety. 
 

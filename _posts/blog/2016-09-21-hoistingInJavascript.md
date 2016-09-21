@@ -36,6 +36,7 @@ function b(){
 console.log(a);
 
 {% endraw %}
+```
 
 So even though the function was below where it was executed, it still ran.
 
